@@ -1,0 +1,10 @@
+version: '3'
+services:
+  frp_client:
+    image: maruf571/frp-linux-arm-client:1.0.0
+    restart: always
+    volumes:
+      - ./frpc.ini:/etc/frp/frpc.ini:ro
+    network_mode: host
+
+
