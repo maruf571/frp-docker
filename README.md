@@ -2,10 +2,10 @@
 [FRP](https://github.com/fatedier/frp) is a fast reverse proxy to help you expose a local server behind a NAT or firewall to the Internet. This is the docker file 
 for the frp application.
 
-## Why we need FRP
-I was running home assistant on raspbery pi on my local network and I had no option for port 
-forward so that I can access my raspbery pi from the outside of the home network I mean internet.
-I was looking Ngrok like solution to expose my local server to the world. 
+## Why need FRP
+I was running home assistant on raspbery pi on my local network. 
+I had no option for port-forward so that I can access raspbery pi from the outside of the home network, I mean from internet.
+I was looking for a solution solution to expose my local server to the world.  
 
 ## FRP Server
 I am running frp server on ec2 and that is why server is based on linux-386. Distro and FRP version can be changed from the  Dockerfile. 
